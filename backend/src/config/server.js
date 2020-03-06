@@ -1,4 +1,4 @@
-const routes = require('../routes');
+const routes = require('./routes/routes');
 
 require('dotenv/config');
 
@@ -10,8 +10,8 @@ const server = express();
 server.use(bodyParser.urlencoded({ extended: true }));
 server.use(bodyParser.json());
 
-server.use(routes);
-
 server.listen(process.env.PORT, function() {
   console.log(`BACKEND is running on port ${process.env.PORT}`);
 });
+
+module.exports = server
