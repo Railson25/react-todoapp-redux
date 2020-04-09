@@ -9,10 +9,10 @@ export default props => (
         <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
                 <li className="nav-item active">
-                    <a className="nav-link" href="#/todos">Tarefas <span className="sr-only">(current)</span></a>
+                    <a className="nav-link" href="/todos">Tarefas <span className="sr-only">(current)</span></a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#/about">Sobre </a>
+                    <a className="nav-link" href="/about">Sobre </a>
                 </li>
             </ul>
         </div>
